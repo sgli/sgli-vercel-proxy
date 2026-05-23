@@ -22,7 +22,7 @@
 		},
 		{ 
 			"source": "/okx-ws/:match*", 
-			"destination": ""wss://ws.okx.com:8443/:match*" 
+			"destination": "wss://ws.okx.com:8443/:match*" 
 		}
     ],
     "github": {
