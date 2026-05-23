@@ -15,6 +15,14 @@
 		{ 
 			"source": "/okx/:match*", 
 			"destination": "https://www.okx.com/:match*" 
+		},
+		{ 
+			"source": "/okx-ws/", 
+			"destination": "wss://ws.okx.com:8443" 
+		},
+		{ 
+			"source": "/okx-ws/:match*", 
+			"destination": ""wss://ws.okx.com:8443/:match*" 
 		}
     ],
     "github": {
